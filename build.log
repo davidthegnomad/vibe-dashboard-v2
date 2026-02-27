@@ -1,0 +1,29 @@
+
+> vibe-dashboard@0.1.0 build
+> next build
+
+  ▲ Next.js 15.0.0
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/4) ...
+   Generating static pages (1/4) 
+   Generating static pages (2/4) 
+   Generating static pages (3/4) 
+ ✓ Generating static pages (4/4)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    71.4 kB         171 kB
+└ ○ /_not-found                          899 B           100 kB
++ First Load JS shared by all            99.5 kB
+  ├ chunks/215-a6d4179420d834af.js       44.8 kB
+  ├ chunks/4bd1b696-d1b66699b97fe1b3.js  52.8 kB
+  └ other shared chunks (total)          1.87 kB
+
+
+○  (Static)  prerendered as static content
+

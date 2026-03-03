@@ -15,6 +15,7 @@ export const BOOKMARKS: Bookmark[] = [
     { name: "YouTube", url: "https://www.youtube.com/", domain: "youtube.com", category: "home", description: "Video platform" },
     { name: "AmazonSmile", url: "https://smile.amazon.com/", domain: "amazon.com", category: "home" },
     { name: "S&P 500 Map", url: "https://finviz.com/map.ashx", domain: "finviz.com", category: "home" },
+    { name: "Vibe Dashboard Landing", url: "https://vibe-dashboard-aab61.web.app/", domain: "vibe-dashboard-aab61.web.app", category: "home", description: "Vibe Dashboard live frontend" },
 
     // AI
     { name: "ChatGPT", url: "https://chat.openai.com/", domain: "chat.openai.com", category: "ai", subcategory: "Chatbots & LLMs" },

@@ -248,9 +248,9 @@ export default function DashboardUI({ currentCategory }: { currentCategory: stri
             <main className="flex-grow max-w-[1400px] mx-auto px-8 pb-48 w-full relative z-10">
                 {/* Search Bar */}
                 <div className="flex justify-center mb-16">
-                    <div className="relative w-full max-w-2xl group">
+                    <div className="relative w-full max-w-2xl group p-2 rounded-full glass-card border border-white/5 bg-white/[0.02]">
                         <label htmlFor="search-bookmarks" className="sr-only">Search Bookmarks</label>
-                        <Search className="absolute left-6 top-1/2 -translate-y-1/2 w-5 h-5 text-muted group-focus-within:text-accent-primary transition-colors" />
+                        <Search className="absolute left-8 top-1/2 -translate-y-1/2 w-5 h-5 text-muted group-focus-within:text-accent-primary transition-colors" />
                         <input
                             id="search-bookmarks"
                             name="search"
@@ -259,7 +259,7 @@ export default function DashboardUI({ currentCategory }: { currentCategory: stri
                             title="Search bookmarks by name or URL"
                             value={searchQuery}
                             onChange={(e) => setSearchQuery(e.target.value)}
-                            className="w-full pl-16 pr-8 py-5 rounded-full glass border-white/5 group-focus-within:border-accent-primary/30 outline-none transition-all text-lg"
+                            className="w-full pl-14 pr-8 py-4 rounded-full bg-white/5 border border-white/5 group-focus-within:border-accent-primary/30 outline-none transition-all text-lg"
                         />
                     </div>
                 </div>
@@ -383,6 +383,20 @@ export default function DashboardUI({ currentCategory }: { currentCategory: stri
                         })}
                     </DragDropContext>
                 )}
+
+                <div className="flex justify-center mt-12 mb-8">
+                    <a
+                        href="https://www.gnomadstudio.org/demo/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group inline-flex items-center gap-3 px-10 py-5 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-accent-primary/50 text-white font-bold text-lg shadow-xl shadow-black/50 hover:shadow-[0_0_30px_hsla(171,65%,70%,0.2)] hover:-translate-y-1 transition-all duration-300"
+                    >
+                        <span className="bg-gradient-to-r from-accent-primary to-accent-secondary bg-clip-text text-transparent font-black tracking-widest uppercase text-sm">
+                            View Live Client Demos
+                        </span>
+                        <ExternalLink className="w-5 h-5 text-accent-secondary group-hover:text-accent-primary transition-colors" />
+                    </a>
+                </div>
             </main>
 
             {/* Modern Glassy Footer Frame */}

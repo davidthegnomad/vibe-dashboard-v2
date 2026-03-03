@@ -15,6 +15,7 @@ export const BOOKMARKS: Bookmark[] = [
     { name: "YouTube", url: "https://www.youtube.com/", domain: "youtube.com", category: "home", description: "Video platform" },
     { name: "AmazonSmile", url: "https://smile.amazon.com/", domain: "amazon.com", category: "home" },
     { name: "S&P 500 Map", url: "https://finviz.com/map.ashx", domain: "finviz.com", category: "home" },
+    { name: "Vibe Dashboard Landing", url: "https://vibe-dashboard-aab61.web.app/", domain: "vibe-dashboard-aab61.web.app", category: "home", description: "Vibe Dashboard live frontend" },
 
     // AI
     { name: "ChatGPT", url: "https://chat.openai.com/", domain: "chat.openai.com", category: "ai", subcategory: "Chatbots & LLMs" },
@@ -22,6 +23,8 @@ export const BOOKMARKS: Bookmark[] = [
     { name: "Playground", url: "https://beta.openai.com/playground", domain: "openai.com", category: "ai", subcategory: "Chatbots & LLMs" },
     { name: "AI Studio", url: "https://aistudio.google.com/prompts/new_chat", domain: "aistudio.google.com", category: "ai", subcategory: "Chatbots & LLMs" },
     { name: "DeepSeek Platform", url: "https://platform.deepseek.com/usage", domain: "deepseek.com", category: "ai", subcategory: "Chatbots & LLMs" },
+    { name: "Inception Chat- Mercury 2", url: "https://chat.inceptionlabs.ai/", domain: "chat.inceptionlabs.ai", category: "ai", subcategory: "Chatbots & LLMs" },
+    { name: "Perplexity Account", url: "https://www.perplexity.ai/account/api/keys", domain: "perplexity.ai", category: "ai", subcategory: "Chatbots & LLMs" },
 
     { name: "Magic Eraser", url: "https://magicstudio.com/magiceraser", domain: "magicstudio.com", category: "ai", subcategory: "Image & Generative Art" },
     { name: "AI Image Enlarger", url: "https://imglarger.com/", domain: "imglarger.com", category: "ai", subcategory: "Image & Generative Art" },
@@ -54,20 +57,35 @@ export const BOOKMARKS: Bookmark[] = [
     { name: "The Hartford", url: "https://business.thehartford.com/profile", domain: "thehartford.com", category: "gnomad", subcategory: "Operations" },
     { name: "D&B", url: "https://my.dnb.com/", domain: "my.dnb.com", category: "gnomad", subcategory: "Operations" },
     { name: "Citizens Bank", url: "https://beyond.thecitizensbank.net/", domain: "thecitizensbank.net", category: "gnomad", subcategory: "Operations" },
+    { name: "DTG EMAIL LOGIN", url: "https://sso.godaddy.com/login?app=ox&realm=pass", domain: "sso.godaddy.com", category: "gnomad", subcategory: "Operations" },
+    { name: "Zeffy", url: "https://www.zeffy.com/en-US/o/fundraising/campaigns?donationFormId=569db7cb-aa1c-4fa4-a9bb-ace427002abb&formCategory=DonationForm", domain: "zeffy.com", category: "gnomad", subcategory: "Operations" },
 
     // Web
     { name: "Hostinger", url: "https://hpanel.hostinger.com/", domain: "hostinger.com", category: "web", subcategory: "Hosting & Deploy" },
     { name: "Vercel", url: "https://vercel.com/new", domain: "vercel.com", category: "web", subcategory: "Hosting & Deploy" },
     { name: "Supabase Auth", url: "https://supabase.com/dashboard/project/faoxftlafbzpxqlmdvko/auth/users", domain: "supabase.com", category: "web", subcategory: "Hosting & Deploy" },
+    { name: "Google Cloud Hub", url: "https://console.cloud.google.com/cloud-hub/home?project=gnomadstudio&supportedpurview=folder", domain: "console.cloud.google.com", category: "web", subcategory: "Hosting & Deploy" },
+    { name: "Firebase App Hosting", url: "https://console.firebase.google.com/u/1/project/gnomad-studio-client/apphosting", domain: "console.firebase.google.com", category: "web", subcategory: "Hosting & Deploy" },
 
     { name: "GitHub", url: "https://github.com/davidthegnomad", domain: "github.com", category: "web", subcategory: "Tools" },
     { name: "Resend", url: "https://resend.com/domains/11ea8a99-b5ec-4f1b-bf07-bc120976ee90", domain: "resend.com", category: "web", subcategory: "Tools" },
     { name: "RefractWeb", url: "https://www.refractweb.com/", domain: "refractweb.com", category: "web", subcategory: "Tools" },
+    { name: "Dribbble Web Design", url: "https://dribbble.com/shots/following/web-design", domain: "dribbble.com", category: "web", subcategory: "Tools" },
+    { name: "Muskogee Web Design", url: "https://www.muskogeewebdesign.com/web-design", domain: "muskogeewebdesign.com", category: "web", subcategory: "Tools" },
+    { name: "Notion", url: "https://www.notion.com/", domain: "notion.com", category: "web", subcategory: "Tools" },
+    { name: "Notion Inbox Organizer", url: "https://www.notion.so/agent/314a4b1960db819d84e40092e697881e?wfv=chat", domain: "notion.so", category: "web", subcategory: "Tools" },
 
     { name: "Supabase Docs", url: "https://supabase.com/docs/guides/database/overview", domain: "supabase.com", category: "web", subcategory: "Docs" },
 
     // David
     { name: "Audible", url: "https://www.audible.com/lib", domain: "audible.com", category: "david", subcategory: "Entertainment" },
+    { name: "10 DRONE MOVES Using EASY TRICK", url: "https://www.youtube.com/watch?v=OxQspgrYwxM", domain: "youtube.com", category: "david", subcategory: "Entertainment" },
+
+    { name: "Real Estate Exam (51-100)", url: "https://www.youtube.com/watch?v=L37WHfaqwHg", domain: "youtube.com", category: "david", subcategory: "Education" },
+    { name: "Real Estate Exam (151-200)", url: "https://www.youtube.com/watch?v=i3Ml9jLYBIs", domain: "youtube.com", category: "david", subcategory: "Education" },
+    { name: "Central America Checklist", url: "https://docs.google.com/spreadsheets/d/1WHGsGSpWpYsOfmhkUkFQKZ2uWXBDh---6boiZlB7Z44/edit#gid=0", domain: "docs.google.com", category: "david", subcategory: "Docs" },
+    { name: "Books I've Read", url: "https://docs.google.com/spreadsheets/d/1He62br8EILQ9DtPBAvgfSgXdhoAPpidvsfM9VF7c3bg/edit#gid=0", domain: "docs.google.com", category: "david", subcategory: "Docs" },
+    { name: "OMMA", url: "https://omma.us.thentiacloud.net/webs/omma/app/#/service/step-complete", domain: "omma.us.thentiacloud.net", category: "david", subcategory: "Docs" },
 
     // Finance
     { name: "Robinhood", url: "https://robinhood.com/", domain: "robinhood.com", category: "finance", subcategory: "Investing & Crypto" },
@@ -77,6 +95,12 @@ export const BOOKMARKS: Bookmark[] = [
     { name: "Webull", url: "https://invest.webull.com/auth/simple/login", domain: "webull.com", category: "finance", subcategory: "Investing & Crypto" },
     { name: "NiceHash", url: "https://www.nicehash.com/my/dashboard", domain: "nicehash.com", category: "finance", subcategory: "Investing & Crypto" },
     { name: "Charles Schwab", url: "https://client.schwab.com/app/service/nextsteps/#/home/TW_S3_MAS", domain: "schwab.com", category: "finance", subcategory: "Investing & Crypto" },
+    { name: "Stock Options Sheet", url: "https://docs.google.com/spreadsheets/d/1xmWHedzCWG1F9-Qe3v6TDndaCFRYGmgLLEiZbx8gEJY/edit#gid=0", domain: "docs.google.com", category: "finance", subcategory: "Investing & Crypto" },
+    { name: "Options Profit Calculator", url: "https://www.optionsprofitcalculator.com/", domain: "optionsprofitcalculator.com", category: "finance", subcategory: "Investing & Crypto" },
+    { name: "Yahoo Finance", url: "https://finance.yahoo.com/", domain: "finance.yahoo.com", category: "finance", subcategory: "Investing & Crypto" },
+    { name: "Computershare", url: "https://www.computershare.com/us", domain: "computershare.com", category: "finance", subcategory: "Investing & Crypto" },
+    { name: "WAX Cloud Wallet", url: "https://wallet.wax.io/nfts", domain: "wallet.wax.io", category: "finance", subcategory: "Investing & Crypto" },
+    { name: "DC NFT Marketplace", url: "https://nft.dcuniverse.com/splash", domain: "nft.dcuniverse.com", category: "finance", subcategory: "Investing & Crypto" },
 
     { name: "Fidelity NetBenefits", url: "https://nb.fidelity.com/static/mybenefits/netbenefitslogin/#/login", domain: "fidelity.com", category: "finance", subcategory: "Banking" },
     { name: "Truist Login", url: "https://dias.bank.truist.com/ui/login?redirecturi=%2Fweb%2Fhome", domain: "truist.com", category: "finance", subcategory: "Banking" },
